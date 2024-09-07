@@ -1,0 +1,2 @@
+Hello this is a sample code from input.exe!!
+n=5
