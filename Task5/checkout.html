@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <div class="checkout-header">
+            <h1>Your Shopping Cart</h1>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="checkout-summary">
+            <p><strong>Shipping:</strong> Free</p>
+            <p><strong>Total Cost of Items:</strong> <span class="total-cost">$0.00</span></p>
+            <p><strong>Discount:</strong> -$10.00</p>
+            <p><strong>Final Total:</strong> <span class="final-total">$0.00</span></p>
+        </div>
+        <button id="confirm-purchase">Confirm Purchase</button>
+    </div>
+    <script src="checkout.js"></script>
+</body>
+</html>
